@@ -1,0 +1,438 @@
+body {
+	background-image: url(../imagenes/pattern.jpg);
+	background-color: #17324f;
+	width: 100%;	
+}
+	.wrapper {
+		margin: 0 auto;
+		width: 81%;
+		background-color: #ffffff;
+	}	
+		header {
+			height: auto;
+			margin: auto;
+		}
+
+			header h1 {
+				font-family:'Oleo Script', 'Lobster Two', cursive;
+				font-size: 4.375em;
+				color: 	#f6bc73;
+				display: inline-block;
+				margin-top: 3.48%;
+				margin-left: 3.913%;
+
+			}
+
+			header img {
+				width: 55px;
+				padding-top: 0.87%;
+			}
+
+		header nav {
+			background-color: #f64f5c;  
+			text-align: center;
+			float: right;
+			margin-top: 5.652%;
+			margin-right: 3.913%;
+			width: 22.762%;
+		}
+
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden; 
+				font-size: 0.94em;
+			}
+
+				nav li {
+					display: inline;
+				}
+
+					li a {
+						display: inline-block;
+						color: white;
+						text-align: center;
+						padding: 1.217% 3.391%;
+						text-decoration: none; 
+						font-family: 'Open Sans', Helvetica; 
+						font-size: 0.875em;
+					}
+				header a {
+					text-decoration: none;
+					color: #ffffff;
+					font-family: 'Open Sans', Helvetica;
+					font-weight: bold;
+					display: inline-block;
+					padding: 2.696%;
+
+				}
+
+				nav a:hover{
+					background-color: #ee1e2e;
+				}
+
+				nav a:active{
+					background-color: #fd929b;
+				}
+
+		section {
+			display: inline;
+			margin-top: 2.609%;
+			width: 57.391%;
+			background-color: 	#ff8a6e;
+			clear: both;
+			float: right;
+			margin-right: 3.913%;
+		}
+
+			article{
+				background-color: #ffffff;
+				padding: 2.261%;
+				width: 87.826%;
+				height: auto;
+				margin: auto;
+				margin-top: 5.087%;
+				margin-bottom: 5.739%;
+			}
+
+				article h6 {
+					font-family: 'Open Sans', Helvetica;
+					font-weight: lighter;
+					font-size: 0.938em;
+					color: #0c2036;
+				}
+
+				article h2{
+					font-family: 'Lobster'; Cursive;
+					font-size: 1.875em;
+					color: #e55c3b;
+				}
+
+				article p {
+					font-family: 'Open Sans'; Helvetica;
+					font-size: 0.875em;
+					color: #0c2036;
+					margin: 0.697%;
+					padding-bottom: 2%;
+				}
+				article a {
+					text-decoration: none;
+					font-family: 'Open Sans'; Helvetica;
+					font-size: 0.813em;
+					font-weight: bold;
+					float: right;
+					display: inline;
+					padding-right: 1.739%;
+					color: #2c5a8b;
+				}
+
+				article a:hover {
+					color: #5484b8;
+				}
+
+				#mas {
+					padding-top: 0.522%;
+					padding-bottom: 1.739%;
+					float: right;
+					padding-right: 2.609%;
+				}
+
+				#mas a {
+					color: 	#ffecbc;
+					font-weight: bold;
+					font-family: 'Open Sans'; Helvetica;
+					font-size: 0.938em;
+					text-decoration: none;
+				}
+
+				#mas a:hover {
+					color: #ffd366;
+				}
+		.imgs {
+			width: 350px;
+			background-color: #ffecbc;
+			height: auto;
+			margin-top: 0.696%;
+		}
+			aside img {
+				width: 300px;
+				display: inline;
+				margin: auto;
+				padding-left: 7.267%;
+				padding-top: 5.957%;
+				padding-bottom: 4.957%;
+				}
+
+		aside {
+			background-color: #f64f5c;
+			width: 350px;
+			margin-top: 2.609%;
+			margin-left: 3.913%;
+			float: left;
+			display: inline;
+		}
+
+			aside a{
+				padding: 1.609%;
+				font-size: 1em;
+				margin-left: 2.957%;
+			}
+
+			aside a:hover{
+				color: #ff8a93;
+			}
+
+			aside ul {
+				display: inline;
+
+			}
+
+		footer {
+			width: 100%;
+			height: auto;
+			background-color: #f6bc73;
+			clear: both;
+			margin-top: 3.478%;
+		}
+
+			footer h5 {
+				font-size: 1em;
+				font-family: 'Open Sans'; Helvetica;
+				font-weight: lighter;
+				color: #ffffff;
+				padding: 2%;
+				padding-left: 4.913%;
+			}
+
+@media screen and (max-width:1250px) {
+    .wrapper { 
+    	width: 88%; 
+    }
+	    header nav {
+	    	margin: auto;
+	    	display: block;
+	    	width: 64%;
+	    	float: none;
+	    }
+
+	    	nav li {
+				font-size: 1.4em;
+	    	}
+
+	    header h1 {
+			width: 88%;
+			text-align: center;
+			float: none;
+	    }
+
+		    header img {
+		    	display: none;
+		    }
+		
+		section {
+			margin: auto;
+			clear: both;
+			float: none;
+			display: block;
+			width: 64%;
+		}
+
+			article {
+				margin: auto;
+				margin-bottom: 4%;
+			}
+
+		aside {
+			margin: auto;
+			float: none;
+			margin-top: 5.5%;
+			display: block;
+			width: 64%;
+			clear: both;
+		}
+
+			aside ul {
+				margin: auto;
+				text-align: center;
+			}
+				
+				aside li {
+					margin: 1.5%;
+				}
+		aside .imgs {
+			width: 100%;
+		}
+
+			aside img {
+				padding: 1%;
+				display: inline;
+				margin-left: 1.7%;
+				padding-top: 3%;
+				padding-bottom: 3%
+			}
+
+				#uno {
+					width: 50%;
+				}
+
+				#dos {
+					width: 40%;
+				}
+  }
+
+
+@media screen and (max-width:1000px) {
+	header h1 {
+		font-size: 3.8em;
+		float: none;
+	}
+
+@media screen and (max-width:950px) {
+	header h1 {
+		font-size: 3.4em;
+		float: none;
+	}
+
+@media screen and (max-width:800px) {
+	header h1 {
+		font-size: 3em;
+		float: none;
+	}
+
+@media screen and (max-width:580px) {
+	.wrapper {
+		width: 94%;
+	}
+
+		header h1 {
+			font-size: 2.5em;
+			float: none;
+		}
+		header nav {
+			    	margin: auto;
+			    	display: block;
+			    	width: 84%;
+			    	float: none;
+			    }
+
+			    	nav li {
+						font-size: 1em;
+			    	}
+
+			    	li a { 
+			    		display: block;
+			    	}
+
+				    header img {
+				    	display: none;
+				    }
+				
+				.wrapper section {
+					margin: auto;
+					display: block;
+					width: 84%;
+					float: none;
+				}
+
+					article {
+						margin: auto;
+						float: none;
+					}
+
+				aside {
+					margin: auto;
+					display: block;
+					width: 84%;
+					float: none;
+				}
+
+					aside ul {
+						margin: auto;
+						text-align: center;
+					}
+						
+						aside li {
+							margin: 1.5%;
+						}
+				aside .imgs {
+					width: 100%;
+				}
+
+					aside img {
+						padding: 1%;
+						display: inline;
+						margin-left: 1.7%;
+						padding-top: 3%;
+						padding-bottom: 3%
+					}
+}
+			
+@media screen and (max-width:375px) {
+	
+	.wrapper {
+		width: 100%;
+		background-image: url(../imagenes/pattern.jpg)
+	}
+
+		header h1 {
+			font-size: 3.8em;
+			margin: 0% auto;
+			color: #f6bc73;
+			text-shadow: 0.04em 0.04em #17324f;
+		}
+
+		header nav {
+			width: 100%;
+		}
+		
+			header li {
+				font-size: 1.5em;
+			}
+
+				li a:active {
+					background-color: #fd929b;
+				}
+	
+		.wrapper section {
+			width: 100%;
+			float: none;
+			height: auto;
+		}
+
+			section article {
+				margin-top: 4.4%;
+				margin-bottom: 3%;
+				display: block;
+				float: none;
+				height: auto;
+			}
+
+				article a {
+					display: inline;
+				}
+
+			.mas {
+				width: 100%;
+				display: inline;
+				background-color: #ff8a6e;
+
+			}
+
+		.wrapper aside {
+			width: 100%;
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

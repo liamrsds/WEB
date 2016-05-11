@@ -1,0 +1,40 @@
+
+<div class='rectangulo'></div>
+<style>
+@-webkit-keyframes coloranim {
+    0% {
+      background-color:#ffa370;
+      width: 30px;
+      height:40px;
+      margin-left: 40%;
+    }
+    50% {
+      background-color:#ffd6c0;
+      margin-top: 30%;
+      
+    }
+    60%{
+    	-webkit-transform:rotate(600deg);
+    }
+    100% {
+      background-color:#ffc0cb;
+     
+    }
+  }
+.rectangulo{
+  position:absolute;
+  background-color:#ffc0cb;
+  top: 100px;
+  left: 300px;
+  width: 100px;
+  height: 200px;
+  -webkit-animation-name: coloranim;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  
+  .rectangulo:hover{
+  	
+  
