@@ -1,0 +1,50 @@
+body {
+	background-image: url(../imagenes/fondo.png);
+}
+
+.wrapper {
+	width: 1024px;
+	margin: auto;
+	background-color: white;
+}
+
+h1 { 
+	font-size: 6em;
+	color: #514343;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: Helvetica;
+	color: #514343;
+	text-align: justify;
+	margin:10px;
+}
+
+section {
+	margin:auto;
+	width: 880px;
+}
+
+article {
+	width: 250px;
+	height: 540px;
+	display: inline-block;
+	background-color: #f9f5ef;
+	margin: 18px;
+	opacity: 1;
+	vertical-align: top;
+}
+
+img {
+	width: 45px;
+	align-items: center;
+	border-radius: 50%;
+	margin: 8px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
