@@ -1,0 +1,41 @@
+.titulo {
+	font-family: Futura;
+	Color: #ffc0cb;
+	background-color:#383183;
+	padding: 1px;
+	text-align: center;
+	width: 726px;
+}
+p {
+	font-family: Helvetica;
+	color: ##6f6f6f;
+	margin: 5px;
+}
+a {
+	text-decoration: none;
+	color: ;
+}
+#texto {
+	background-color: #bcf2de;
+	height: 500px;
+	width: 300px;
+	border: 5px dashed #ff4e57;
+	padding: 4px;
+	float: left;
+}
+img {
+    height: 500px;
+    width: 300px;
+}
+#links {
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #ffc0cb;
+    background-color: #d3cef4;
+    width: 600px;
+}
+h3 {
+    font-family: Futura;
+    color: #ff4e57;
+    margin: 20px 5px 5px 5px;
+}
