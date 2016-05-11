@@ -1,0 +1,183 @@
+html {
+	height: 100%
+}
+
+body {
+	background-color: #630a10;
+	background-image: url(../imagenes/sparks1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+		-webkit-animation: fadein 6s; 
+       -moz-animation: fadein 6s; 
+        -ms-animation: fadein 6s; 
+         -o-animation: fadein 6s; 
+            animation: fadein 6s;
+}
+
+				@keyframes fadein {
+				    from { opacity: 0; }
+				    to   { opacity: 1; }
+				}
+
+				@-moz-keyframes fadein {
+				    from { opacity: 0; }
+				    to   { opacity: 1; }
+				}
+
+				@-webkit-keyframes fadein {
+				    from { opacity: 0; }
+				    to   { opacity: 1; }
+				}
+
+				@-ms-keyframes fadein {
+				    from { opacity: 0; }
+				    to   { opacity: 1; }
+				}
+
+				@-o-keyframes fadein {
+				    from { opacity: 0; }
+				    to   { opacity: 1; }
+							
+				}
+}
+
+	.wrapper {
+		/*border: red 1px solid;*/
+		width: 100%;
+	}
+
+		h2 {
+			color: #ffffff;
+			font-family: 'Oswald';
+			font-size: 2.5em;
+			display: inline-block;
+			letter-spacing: 3px;
+			/*border: red 1px solid;*/
+			margin-top: 5%;
+		}
+
+		h2 a {
+			text-decoration: none;
+			color: #ffffff;
+
+				animation-timing-function: ease-in;
+				-moz-transition: color 1s;
+				-webkit-transition: color 1s;
+				-ms-transition: color 1s;
+				-o-transition: color 1s;
+		}
+			
+					h2 a:hover{
+						color: #c94049;
+					}
+
+			#cherry {
+				float: right;
+				margin-right: 9%;
+			}
+
+
+			#beach {
+				margin-left: 9%;
+			}
+
+	.info {
+		font-family: 'Oswald';
+		width: 30%;
+		margin-left: 9%;
+		color: #ecd8d9;
+		margin-top: 2%;
+		letter-spacing: 3px;
+		line-height: 20px;
+		opacity: 0.9;
+		display: inline-block;
+	}
+
+		.info a {
+			text-decoration: none;
+			color: #c94049;
+
+				animation-timing-function: ease-in;
+				-moz-transition: color 1s;
+				-webkit-transition: color 1s;
+				-ms-transition: color 1s;
+				-o-transition: color 1s;
+		}
+
+				.info a:hover {
+					color: #ffffff;
+				}
+
+	#nombre {
+		/*border: red 1px solid;*/
+		float: right;
+		margin-right: 9%;
+		/*margin-right: 11.7%;*/
+		margin-top: 4%;
+		width: 22.8%;
+		/*width: 45.6%;*/
+		position: initial;
+		clear: both;
+		display: inline-block;
+	}
+
+			#nombre article {
+				margin: 4%;
+				/*border: red 1px solid;*/
+				display: block;
+			}
+
+					h3 {
+						color: #ffffff;
+						font-family: 'Oswald';
+						font-size: 1.2em;
+						letter-spacing: 2px;
+						/*border: red 1px solid;*/
+						text-decoration: none;
+					}
+
+	#cancion {
+		/*border: red 1px solid;*/
+		float: right;
+		display: inline;
+		margin-top: 4%;
+		width: 3%;
+		/*margin-right: -9%;*/
+	}
+		
+			#cancion article {
+				margin: 2%;
+			}
+
+					audio {
+						margin-right: 40%;
+						opacity: 0.28;
+						width: 100%;
+
+								animation-timing-function: ease-in;
+								-moz-transition: opacity 1s;
+				    			-webkit-transition: opacity 1s;
+				    			-ms-transition: opacity 1s;
+				   				-o-transition: opacity 1s;
+					}
+
+						audio:hover {
+							opacity: 0.9;
+						}
+
+/*video{
+position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    
+ }*/
